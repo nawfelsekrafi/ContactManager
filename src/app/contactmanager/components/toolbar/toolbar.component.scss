@@ -1,0 +1,13 @@
+mat-icon{
+    font-size: 30px;
+    height: 56px;
+    width: 56px;
+    line-height: 56px;
+}
+
+.sidenav-toggle{
+    
+    @media (max-width: 720px){
+        display: flex;
+    }
+}
