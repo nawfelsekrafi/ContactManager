@@ -15,8 +15,11 @@
             <mat-tab-group>
                 <mat-tab label="Bio"><p>
                     {{user.bio }}
-                  </p></mat-tab>
-<!--               <mat-tab label="Notes"> Content 2 </mat-tab> --> 
+                  </p></mat-tab >
+                <mat-tab label="Notes"><p>
+                    <app-notes [notes]="user.notes" ></app-notes>
+                  </p></mat-tab >
+                  
                 
               </mat-tab-group>
             

@@ -41,6 +41,9 @@ export class SidenavComponent implements OnInit {
        if(this.isScreenSmall){
           this.sidenav.close();
        }
+       else{
+         this.sidenav.close();
+       }
     });
   }
 

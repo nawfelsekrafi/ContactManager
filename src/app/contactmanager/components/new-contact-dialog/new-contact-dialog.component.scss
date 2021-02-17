@@ -1,0 +1,13 @@
+
+
+  .dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .dialog > *{
+    width: 100%;
+  }
+  
